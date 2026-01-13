@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 귀 왼쪽 -->
+  <polygon points="50,40 70,10 80,45" fill="#FF9A56" stroke="#000" stroke-width="2"/>
+  <polygon points="54,42 70,18 76,43" fill="#FFB380"/>
+
+  <!-- 귀 오른쪽 -->
+  <polygon points="120,45 130,10 150,40" fill="#FF9A56" stroke="#000" stroke-width="2"/>
+  <polygon points="124,43 130,18 146,42" fill="#FFB380"/>
+
+  <!-- 머리 -->
+  <circle cx="100" cy="80" r="50" fill="#FF9A56" stroke="#000" stroke-width="2"/>
+
+  <!-- 눈 왼쪽 -->
+  <ellipse cx="85" cy="75" rx="8" ry="12" fill="#000"/>
+  <circle cx="87" cy="72" r="3" fill="#FFF"/>
+
+  <!-- 눈 오른쪽 -->
+  <ellipse cx="115" cy="75" rx="8" ry="12" fill="#000"/>
+  <circle cx="117" cy="72" r="3" fill="#FFF"/>
+
+  <!-- 코 -->
+  <polygon points="100,85 95,90 100,93 105,90" fill="#FFB380" stroke="#000" stroke-width="1"/>
+
+  <!-- 입 -->
+  <path d="M 100 93 Q 90 100 85 95" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 100 93 Q 110 100 115 95" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 수염 왼쪽 -->
+  <line x1="60" y1="80" x2="30" y2="75" stroke="#000" stroke-width="1.5"/>
+  <line x1="60" y1="85" x2="30" y2="85" stroke="#000" stroke-width="1.5"/>
+  <line x1="60" y1="90" x2="30" y2="95" stroke="#000" stroke-width="1.5"/>
+
+  <!-- 수염 오른쪽 -->
+  <line x1="140" y1="80" x2="170" y2="75" stroke="#000" stroke-width="1.5"/>
+  <line x1="140" y1="85" x2="170" y2="85" stroke="#000" stroke-width="1.5"/>
+  <line x1="140" y1="90" x2="170" y2="95" stroke="#000" stroke-width="1.5"/>
+
+  <!-- 몸통 -->
+  <ellipse cx="100" cy="145" rx="40" ry="50" fill="#FF9A56" stroke="#000" stroke-width="2"/>
+
+  <!-- 배 -->
+  <ellipse cx="100" cy="150" rx="25" ry="35" fill="#FFE4CC"/>
+
+  <!-- 팔 왼쪽 -->
+  <ellipse cx="70" cy="145" rx="12" ry="30" fill="#FF9A56" stroke="#000" stroke-width="2"/>
+
+  <!-- 팔 오른쪽 -->
+  <ellipse cx="130" cy="145" rx="12" ry="30" fill="#FF9A56" stroke="#000" stroke-width="2"/>
+
+  <!-- 꼬리 -->
+  <path d="M 135 165 Q 160 160 165 140 Q 170 120 160 100" fill="none" stroke="#FF9A56" stroke-width="15" stroke-linecap="round"/>
+  <path d="M 135 165 Q 160 160 165 140 Q 170 120 160 100" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+</svg>
